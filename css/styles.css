@@ -259,4 +259,37 @@ body {
   }
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .nav-links a {
+      font-size: 18px;
+  }
+
+  .hamburger {
+      display: block;
+      color: rgb(132, 20, 20);
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
