@@ -1,0 +1,21 @@
+/* css/theme.css */
+:root {
+    --text-color: #343a40;
+    --background-color: #f8f9fa;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --header-bg-color: #fff;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  header {
+    background-color: var(--header-bg-color);
+    box-shadow: 0 2px 4px var(--box-shadow-color);
+  }
+  
+  
